@@ -113,11 +113,10 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: center;
-  height: 50%;
   align-items: center;
+  height: 50%;
   border-top: solid #404040;
   border-bottom: solid #404040;
-  
 }
 
 .div-1, .div-2, .div-3 {
@@ -149,8 +148,8 @@ body {
 .doodle {
     display: flex;
     justify-content: center; 
-    align-content: space-between;
-    flex-wrap: wrap;
+    align-content: center;
+    flex-flow: row wrap;
     height: 100%;
     padding: 2% 0;
 }

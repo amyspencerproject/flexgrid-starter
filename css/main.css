@@ -110,31 +110,20 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
+  font-weight: normal;
   height: 50%;
-  align-items: center;
   border-top: solid #404040;
   border-bottom: solid #404040;
-  
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: rgb(27, 23, 23);
   line-height: 1.5em;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
   background-color: #8a7877;
   height: 75%;
-  width: 30%;
   padding: 0 1%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  /*margin: -3em 0; */
 }
 
 
@@ -146,13 +135,46 @@ body {
     margin: 0 0.5em;
 }
 
+
+/***  Doodle Style in a single class ****/
 .doodle {
+    height: 100%;
+    width: 100%;
+    padding: 2% 0;
     display: flex;
     justify-content: center; 
-    align-content: space-between;
-    flex-wrap: wrap;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+/***  Doodle Style in two classes, doodle-min and flex-full-width ****/
+.doodle-min {
     height: 100%;
     padding: 2% 0;
+}
+
+.flex-full-width {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+.flex-third-width {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.flex-half-width {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 
